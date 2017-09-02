@@ -10,10 +10,21 @@ public class Pattern {
 		 *
 		 */
 		
+		int number = 100;
 
-		
-		
-		
-
+		int subtract = 0;
+		while ( !(number<=0) ){
+			subtract++;
+			for(int i=0; i<10; i++){
+				if(number<=0){
+					break;
+				}
+				else{
+					if( (number-subtract)<=0 ) System.out.print(number);
+					else System.out.print(number+", ");
+				}
+				number -= subtract;
+			}
+		}
 	}
 }

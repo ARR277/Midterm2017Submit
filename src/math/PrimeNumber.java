@@ -12,7 +12,30 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		long number = 1000000;
+		long start = 1;
+		boolean isPrime;
 
+		while(start!=number){
+			start++;
+			isPrime = prime(start);
+			if(isPrime){
+				System.out.print(start);
+			}
+			if(start!=number && isPrime) System.out.print(" ");
+		}
+
+	}
+
+	private static boolean prime(long n){
+		int pairs = 0;
+		long i = n, j = n;
+		while(j>0){
+			if(i%j==0)pairs++;
+			j--;
+		}
+		if(pairs!=2)return false;
+		return true;
 	}
 
 }

@@ -1,34 +1,297 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
+
+    General data structure types include the array, the file, the record, the table, the tree, and so on. Any data structure is
+    designed to organize data to suit a specific purpose so that it can be accessed and worked with in appropriate ways.
+    It is a particular way of storing and organizing information in a computer so that it can be retrieved and used most
+    productively.
+
 What are the various operations that can be performed on different Data Structures?
+
+    -Traversing
+    -Searching
+    -Inserting
+    -Deleting
+    -Sorting
+    -Merging
+
 List out the areas in which data structures are applied extensively?
+
+    -Compiler Design
+    -Operating System
+    -Database Management System
+    -Statistical Analysis Package
+    -Numerical Analysis
+    -Graphics
+    -Artificial Intelligence
+    -Simulation
+
+
 what is an Array?
+
+    It is a container objects that holds a fixed number of values of a single type. When an array is created, the length of an array
+    is established and the length is fixed. It stores not only a fixed-size collection of data elements but also it is useful to think
+    an array as a collection of variables of the same type.
+
 what is the difference between the Array and ArrayList?
+
+    The length of an Array is fixed while the length of an ArrayList is dynamic.
+    The both data types is object but the only difference is that Array is Primitive and ArrayList is Generic.
+
 what is LinkedList?
+
+    Much like Arrays, it is a linear data structure where each element is separate object that are linked using pointers.
+
 How is an Array different from Linked List?
+
+    The length of the LinkedList is dynamic since it allows insertion and deletion of an element regardless the capacity.
+
 what is queue?
+
+    An abstract data type that serves as a collection of elements which follows a particular order in which the operations
+    are performed. The order may be FIFO (first in, first out). Since it is abstract data type, it can be implemented by
+    an Array or LinkedList.
+    Method Operations:
+          <> isEmpty - returns a boolean indicating whether the queue is empty.
+          <> enqueue - insert a data value to the  back of the queue.
+          <> first - returns the data value at the front of the queue without removing it.
+          <> dequeue - remove 1 data value from the front of the queue.
+
 what is stack?
+
+    A linear data structure which follows a particular order in which the operations are performed.
+    The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+    Method Operations:
+          <> isEmpty - returns a boolean indicating whether the stack is empty.
+          <> push - insert a data value onto the top of the stack.
+          <> top()- returns the data value at the top of the stack without removing it.
+          <> pop() - remove the data value at the top of the stack and return it.
+
 what is FIFO and LIFO?
+
+    For Example: A stack of plates.
+        <> FIFO - First In, First Out: Inserting new plate at the top of the stack and Removing 1 plate at the bottom of the stack.
+        <> LIFO - Last In, First Out: Inserting new plate and removing 1 plate only at the top of the stack.
+
 what is the order of complexity?
+
+    An intuitive definition could define the "order" of the program as the relation between the input size and the execution time.
+    Big-O analysis is a form of runtime analysis that measures the efficiency of an algorithm in terms of the time it takes for the
+    algorithm to run as a function of the input size.
+
 what is the best case to search an element from an array?
+
+    O(n)
+
 what is the worst case to search an element from an array?
+
+    O(n)
+
 what is tree in data structure?
+
+    It represents the nodes connected by edges where the values are stored in a hierarchical order, each value has one parent value
+    and at least zero or more children values, and the Tree has one special value called the root which has no parent value.
+
 what is graph in data structure?
+
+    It's a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects
+    are represented by points termed as vertices, and the links that connect the vertices are called edges.
+
 what is the difference between the HashTable and HashMap?
+
+    Compared to HashTable, HashMap is non synchronized. It is not-thread safe and can?t be shared between many threads without proper
+    synchronization code. But it does allows one null key and multiple null values whereas HashTable does not do either key or values.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+
+    - RDBMS: Array
+	- Network data model: Graph
+    - Hierarchical data model: Tree
+
 How HashMap works in java?
+
+    It works based on hashing principle. Hashing is the mechanism of assigning unique code to a variable or attribute using an
+    algorithm to enable easy retrieval. A true hashing mechanism should always return the same hashCode() when it is applied to the
+    same object. Hash functions are used to link key and value in HashMap. Objects are stored by calling put(key, value) method of
+    HashMap and retrieved by calling get(key) and get(value) method. It is a data structure which allows us to store object and
+    retrieve it in constant time O(1) provided we know the key.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
+    It is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or
+    equal to the size of the array. It occurs at the runtime when exception is unchecked, otherwise compile time when exception
+    is checked.
+
 What are the different ways of copying an array into another array?
+
+    For example, String [] arr1 has been declared and initialize with five elements and String [] arr2 is only been declared.
+    To copy an array into another array e.g. copy arr1 to arr2, you can either:
+    	- copy the reference value by its expression.
+    	    Ex: arr2 = arr1;
+
+    	- allocate the capacity of the new array and run either a for loop or while loop to copy arr2 from arr1.
+    	    Ex: For Loop
+
+    	        int [] arr2 = new int[arr1.length];
+    	        for(int i=0; i<arr2.length; i++)
+    	            arr2[i] = arr1[i];
+
+    	    Ex: While Loop
+
+    	        int i = 0;
+    	        int [] arr2 = new int[arr1.length];
+    			while(i<arr1.length){
+    			    arr2[i] = arr1[i];
+    			    i++;
+    			}
+    	- use the System library to set the source of the array, arr1, to be copied into the
+    	    destination array, arr2 with specific parameter -->
+    	    System.arraycopy(source, sourceStartIndex, destination, destinationStartIndex, Length)
+
+    	    Ex: System
+
+    	        System.arraycopy(arr1, 0, arr2, 0, arr1.length);
+
 What is difference between an array and a linked list?
+
+    Array size is fixed and LinkedList size is dynamic.
+        <> In array, memory is allocated at compile time i.e. Static Memory Allocation.
+           The elements are stored in consecutive manner in memory.
+    		- Arrays are linear data structures.
+    		- Array has homogenous values.
+    		- Array elements can be modified easily by identifying the index value
+    		- Array elements can not be added, deleted once it is declared. Insertion & deletion takes more time in array
+    		  as elements are stored in consecutive memory locations.
+    	<> In linked list, memory is allocated at run time i.e. Dynamic Memory Allocation.
+    	   The elements can be stored at any available place as address of node is stored in previous node.
+    		- Linked lists are linear and non-linear data structures.
+    		- Linked lists are linear for accessing, and non-linear for storing in memory.
+    		- It is a complex process for modifying the node in a linked list.
+    		- The nodes in the linked list can be added and deleted from the list. Insertion & deletion are fast & easy
+    		  in linked list as only value of pointer is needed to change.
+
 What is DFS and BFS?
+
+    - DFS, Depth First Search, is an algorithm that traverses a graph in a depth-ward motion and uses a stack to remember to get the
+        next vertex to start a search, when a dead end occurs in any iteration.
+	- BDS, Breadth First Search, is an algorithm that traverses a graph in a breadth-ward motion and uses a queue to remember to get
+	    the next vertex to start a search, when a dead end occurs in any iteration.
+
 What is Recursion?
+
+    It is a basic programming technique you can use in Java, in which a method calls itself to solve some problem. In recursion, the
+    function A either calls itself directly or calls a function B that in turn calls the original function A.
+
 What are linear and non linear data Structures?
+
+    Linear Data Structure:
+        <> It is where the data elements are organised in some sequence.
+        <> They can be implemented in memory using two ways:
+            - The first method is by having a linear relationship between elements by means of sequential memory locations.
+            - The second method is by having a linear relationship by using links.
+        <> Examples:
+            - Array
+            - Stacks
+            - Queue
+            - LinkedList, ArrayList
+
+    Non-Linear Data Structure:
+        <> It is when the data elements are organised in some arbitrary function without any sequence.
+        <> The relationship of adjacency is not maintained between elements of a non-linear data structure.
+        <> Examples:
+            - Trees
+            - Graphs
+
 What is Big-(O)-notation?
+
+    Big O notation is used to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case
+    scenario, and can be used to describe the execution time required or the space used by an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
 
+        Let "O" be =  Big-Oh Notation  , The Upper Bound on the Runtime f(n),
+            "Ω" be = Big-Omega Notation, The Lower Bound on the Runtime f(n),
+            "θ" be = Big-Theta Notation, The Tight Bound on the Runtime f(n)
+
+            such that Runtime is a function of Input Size, f(n) – Runtime of Algorithm, where n is the size of the input.
+
+    +-----------------+-----------------------------------------------+
+    |                 |		           Time Complexity                |
+    |      Sort       +---------------+---------------+---------------+
+    |                 |     Best      |    Average    |     Worst     |
+    +-----------------+---------------+---------------+---------------+
+    |    Selection    |    Ω(n^2)     |    θ(n^2)     |    O(n^2)     |
+    +-----------------+---------------+---------------+---------------+
+    |    Insertion    |    Ω(n)	      |    θ(n^2)	  |    O(n^2)     |
+    +-----------------+---------------+---------------+---------------+
+    |      Bubble     |    Ω(n)	      |    θ(n^2)	  |    O(n^2)     |
+    +-----------------+---------------+---------------+---------------+
+    |      Quick      |  Ω(n log(n))  |	 θ(n log(n))  |    O(n^2)     |
+    +-----------------+---------------+---------------+---------------+
+    |      Merge      |  Ω(n log(n))  |  θ(n log(n))  |  O(n log(n))  |
+    +-----------------+---------------+---------------+---------------+
+    |      Heap       |  Ω(n log(n))  |  θ(n log(n))  |  O(n log(n))  |
+    +-----------------+---------------+---------------+---------------+
+    |      Shell      |  Ω(n log(n))  | Θ(n(log(n))^2)| O(n(log(n))^2)|
+    +-----------------+---------------+---------------+---------------+
+    |      Bucket     |    Ω(n+k)	  |    θ(n+k)	  |    O(n^2)     |
+    +-----------------+---------------+---------------+---------------+
+
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
-  a)In terms of Accessing element.
-  b)In terms of Inserting element.
-  c)In terms of Searching element.
-  d)In terms of Removing element.
+  a)In terms of Accessing element (ACCESS).
+  b)In terms of Inserting element (INSERT).
+  c)In terms of Searching element (SEARCH).
+  d)In terms of Removing element  (DELETE).
+
+        Let "O" be =  Big-Oh Notation  , The Upper Bound on the Runtime f(n),
+            "θ" be = Big-Theta Notation, The Tight Bound on the Runtime f(n)
+
+            such that Runtime is a function of Input Size, f(n) – Runtime of Algorithm, where n is the size of the input.
+
+          - Average Time Complexity Chart
+          -  Worst  Time Complexity Chart
+
+    +----------------------+-----------------------------------------------------------+
+    |    Data Structure    |                  AVERAGE TIME COMPLEXITY                  |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |                      |    ACCESS    |    SEARCH    |    INSERT    |    DELETE    |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Array         |    θ(1)	  |    θ(n)      |    θ(n)      |    θ(n)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Stack         |    θ(n)	  |    θ(n)	     |    θ(1)	    |    θ(1)	   |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Queue         |    θ(n)	  |    θ(n)	     |    θ(1)	    |    θ(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Singly-LinkedList   |    θ(n)	  |    θ(n)	     |    θ(1)	    |    θ(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Doubly-LinkedList   |    θ(n)	  |    θ(n)	     |    θ(1)	    |    θ(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |      Hash Table      |    N/A	      |    θ(1)	     |    θ(1)	    |    θ(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Binary Search Tree  |   θ(log(n))  |   θ(log(n))	 |   θ(log(n))	|   θ(log(n))  |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |       AVL Tree       |   θ(log(n))  |   θ(log(n))	 |   θ(log(n))	|   θ(log(n))  |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |/\/\/\/\/\/\/\/\/\/\/\-\/\/\/\/\/\/\/-/\/\/\/\/\/\/\-\/\/\/\/\/\/\/-/\/\/\/\/\/\/\|
+    +----------------------+-----------------------------------------------------------+
+    |    Data Structure    |                   WORST  TIME COMPLEXITY                  |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |                      |    ACCESS    |    SEARCH    |    INSERT    |    DELETE    |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Array         |    O(1)	  |    O(n)	     |    O(n)	    |    O(n)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Stack         |    O(n)	  |    O(n)	     |    O(1)	    |    O(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |        Queue         |    O(n)	  |    O(n)	     |    O(1)	    |    O(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Singly-LinkedList   |    O(n)	  |    O(n)	     |    O(1)	    |    O(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Doubly-LinkedList   |    O(n)	  |    O(n)	     |    O(1)	    |    O(1)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |      Hash Table      |    N/A	      |    O(n)	     |    O(n)	    |    O(n)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |  Binary Search Tree  |    O(n)	  |    O(n)	     |    O(n)	    |    O(n)      |
+    +----------------------+--------------+--------------+--------------+--------------+
+    |       AVL Tree       |   O(log(n))  |   O(log(n))	 |   O(log(n))	|   O(log(n))  |
+    +----------------------+--------------+--------------+--------------+--------------+
