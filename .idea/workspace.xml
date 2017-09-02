@@ -1,52 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="git remote add origin https://github.com/ARR277/MidtermNew2017.git&#10;git push -u origin master">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/DataReader.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/DataReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseArrayList.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseArrayList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseMap.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseQueue.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo$1.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo$DateConversion.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo$DateConversion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/EmployeeInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/FortuneEmployee.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/design/FortuneEmployee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/Factorial.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/Factorial.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/FindMissingNumber.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/FindMissingNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/LowestNumber.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/LowestNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/MakePyramid.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/MakePyramid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/Pattern.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/Pattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/PrimeNumber.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/PrimeNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Anagram.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Anagram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/DuplicateWord.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/DuplicateWord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Palindrome.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Palindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Permutation.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Permutation.class" />
+    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Factorial.java" afterPath="$PROJECT_DIR$/src/math/Factorial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Fibonacci.java" afterPath="$PROJECT_DIR$/src/math/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/FindMissingNumber.java" afterPath="$PROJECT_DIR$/src/math/FindMissingNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/LowestNumber.java" afterPath="$PROJECT_DIR$/src/math/LowestNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/MakePyramid.java" afterPath="$PROJECT_DIR$/src/math/MakePyramid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Pattern.java" afterPath="$PROJECT_DIR$/src/math/Pattern.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/PrimeNumber.java" afterPath="$PROJECT_DIR$/src/math/PrimeNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/problems/Anagram.java" afterPath="$PROJECT_DIR$/src/problems/Anagram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/problems/DuplicateWord.java" afterPath="$PROJECT_DIR$/src/problems/DuplicateWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/problems/Palindrome.java" afterPath="$PROJECT_DIR$/src/problems/Palindrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/problems/Permutation.java" afterPath="$PROJECT_DIR$/src/problems/Permutation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -405,6 +361,14 @@
       <option name="presentableId" value="Default" />
       <updated>1503799214822</updated>
     </task>
+    <task id="LOCAL-00001" summary="git remote add origin https://github.com/ARR277/MidtermNew2017.git&#10;git push -u origin master">
+      <created>1504317084482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504317084482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
