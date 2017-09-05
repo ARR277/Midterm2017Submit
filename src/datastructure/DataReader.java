@@ -26,24 +26,31 @@ public class DataReader {
 		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car";
 		Stack<String> stack = new Stack<>();
 		LinkedList<String> linkedList = new LinkedList<>();
-		String line;
+//		String line;
+
 		File filePath = new File(textFile);
 		try {
-			FileReader fr = new FileReader(filePath);
-			BufferedReader br = new BufferedReader(fr);
-
-			while((line = br.readLine())!=null) {
-				stack.push(line);
-				linkedList.add(line);
+			String in = "";
+//			FileReader fr = new FileReader(filePath);
+//			BufferedReader br = new BufferedReader(fr);
+			Scanner sc = new Scanner(filePath);
+			while (sc.hasNext()){
+				in = sc.next();
+				stack.push(in);
+				linkedList.add(in);
 			}
 
-			br.close();
+//			while((line = br.readLine())!=null) {
+//				stack.push(line);
+//				linkedList.add(line);
+//			}
+			sc.close();
+//			br.close();
 
 		}catch(IOException ioe) {
 			ioe.printStackTrace();
 			System.out.println(ioe.getMessage());
 		}
-		int i= 1;
 		String dequeue;
 		System.out.println("LinkedList size = "+linkedList.size()+" | Stack size = "+stack.size()+"\n");
 		System.out.println("LinkedList: ");
@@ -51,9 +58,8 @@ public class DataReader {
 			System.out.println(dequeue);
 		}
 		System.out.println("\nStack: ");
-		Iterator<String> it = stack.iterator();
-		while( it.hasNext() ){
-			System.out.println(it.next());
+		while( stack.size()!=0 ){
+			System.out.println(stack.pop());
 		}
 		System.out.println("\nLinkedList size = "+linkedList.size()+" | Stack size = "+stack.size());
 
